@@ -152,6 +152,16 @@ body {
   max-width: 1440px;
 }
 
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: var(--Cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .button {
   background-color: var(--Iris);
   font-family: var(--Roboto);
