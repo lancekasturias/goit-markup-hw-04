@@ -303,8 +303,39 @@ body {
 .member-info {
   padding: 32px 0;
 }
-/*img block*/
 
+.socmed-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.socmed-icon {
+  fill: var(--Cloud);
+  gap: 24px;
+  align-items: center;
+}
+
+.socmed-items {
+  width: 40px;
+  height: 40px;
+}
+
+.socmed-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--Iris);
+  justify-content: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.socmed-link:hover,
+.socmed-link:focus {
+  background-color: var(--Ocean);
+}
+/*img block*/
 img {
   display: block;
 }
